@@ -1,0 +1,305 @@
+@charset "utf-8";
+@media (max-width: 575.98px) {
+
+  /*
+    ここから、共通　heading０２
+  */
+  .heading01 {
+    font-size: 24px;
+    color: #000;
+    font-family: sans-serif;
+    opacity: 0.8;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .heading01 span {
+    border-bottom: 3px solid #84fb84;
+    padding-bottom: 10px;
+  }
+  /*
+    ここまで、共通　heading０２
+  */
+
+  /*
+    ここから　ヘッダー
+  */
+  .navbar .navbar-toggler{
+    border-color: #000;
+    font-size: 12px;
+
+  }
+	  .header .navbar-brand-size {
+		font-size: 26px;
+
+    text-align: left;
+	}
+  /*
+    ここまで　ヘッダー
+  */
+
+  /*
+  --> ここから、２x２の共通グリッド
+  ＃features #latest
+  */
+  .contents .category {
+    padding: 60px 0 40px;
+  }
+  .contents .contents-wrap-list .contents-wrap-link {
+    display: block;
+    margin: 0px 0px 40px 0px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all, 0.3s;
+  }
+  .contents .contents-wrap-list img {
+    width: 100%;
+    height: 200px;
+  }
+  .contents .contents-wrap-list .contents-wrap-title {
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    font-family: sans-serif;
+    opacity: 0.8;
+  }
+
+  .contents .contents-wrap-list .contents-big-title {
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .contents  .contents-wrap-lower .contents-wrap-txt {
+    opacity: 0.7;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: sans-serif;
+  }
+
+  /*
+  --> ここまで、２x２の共通グリッド
+  ＃features #latest
+  */
+
+  /*
+  --> ここから、ガイド
+  */
+  .guides {
+    padding: 40px 0;
+  }
+  .guides .row .guide-group {
+    margin-bottom: 10px;
+  }
+  .row .guide-group .heading02 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+
+  /*
+  --> ここまで、ガイド
+  */
+
+  /*
+    ここから　３カラム
+  */
+  .footer .foot-heading {
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  .footer .foot-heading span {
+    border-bottom: 3px solid #98fb98;
+    padding-bottom: 10px;
+  }
+  .footer .port-link {
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    font-family: serif;
+  }
+  .footer .foot-txt {
+    padding: 40px 10px 0;
+    font-family: serif;
+    line-height: 2.5;
+    font-size: 14px;
+  }
+  .footer .sns {
+    padding-top: 20px;
+  }
+
+  /*
+    ここまで　３カラム
+  */
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /*
+    ここから、共通　heading０２
+  */
+  .heading01 {
+    font-size: 28px;
+    color: #000;
+    font-family: sans-serif;
+    opacity: 0.8;
+    margin-bottom: 60px;
+    text-align: center;
+  }
+
+  .heading01 span {
+    border-bottom: 3px solid #84fb84;
+    padding-bottom: 20px;
+  }
+  /*
+    ここまで、共通　heading０２
+  */
+
+  .navbar .navbar-toggler{
+    border-color: #000;
+    font-size: 12px;
+  }
+  .header .navbar-brand-size {
+  font-size: 32px;
+  margin: 0 auto;
+  }
+  /*
+  --> ここから、２x２の共通グリッド
+  ＃features #latest
+  */
+  .contents .category {
+    padding: 60px 0 20px;
+  }
+  .contents .contents-wrap-list .contents-wrap-link {
+    display: block;
+    margin: 0px 0px 40px 0px;
+    text-decoration: none;
+    opacity: 0.8;
+    transition: all, 0.3s;
+  }
+  .contents .contents-wrap-list img {
+    width: 75%;
+    height: 200px;
+  }
+  .contents .contents-wrap-list .contents-wrap-title {
+    line-height: 1.8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    font-family: sans-serif;
+    opacity: 0.8;
+  }
+
+  .contents .contents-wrap-list .contents-big-title {
+    line-height: 2;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  .contents  .contents-wrap-lower .contents-wrap-txt {
+    opacity: 0.7;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    font-family: sans-serif;
+  }
+
+  /*
+  --> ここまで、２x２の共通グリッド
+  ＃features #latest
+  */
+  /*
+  --> ここから、ガイド
+  */
+  .guides {
+    padding: 40px 0;
+  }
+  .guides .row .guide-group {
+    margin-bottom: 10px;
+  }
+  .row .guide-group .heading02 {
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 10px 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .row .guide-group .guide-list-link {
+    text-decoration: none;
+    opacity: 0.7;
+    color: #000;
+    line-height: 1.8;
+    display: block;
+    font-size: 14px;
+    line-height: 2;
+  }
+
+  /*
+  --> ここまで、ガイド
+  */
+
+  /*
+    ここから　３カラム
+  */
+  .footer .foot-heading {
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+  }
+  .footer .foot-heading span {
+    border-bottom: 3px solid #98fb98;
+    padding-bottom: 10px;
+  }
+  .footer .port-link {
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    font-family: serif;
+  }
+  .footer .foot-txt {
+    padding: 40px 10px 0;
+    font-family: serif;
+    line-height: 2.5;
+    font-size: 16px;
+  }
+  
+
+  /*
+    ここまで　３カラム
+  */
+
+}
+
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+@media (min-width: 1200px) {
+	.my-class {
+		// cssプロパティをここに記述
+	}
+}
