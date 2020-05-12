@@ -1,0 +1,166 @@
+@charset "utf-8";
+html {
+  font-size: 16px;
+
+}
+body {
+  margin: 0;
+  background: #fff;
+  color: #333333;
+  word-wrap: break-word;
+  font-family: sans-serif, Arial, "ヒラギノ角ゴ　ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic";
+  font-weight: 300;
+
+}
+/* ここからヘッダー */
+/*
+  高さを調整するのが難しかったので、今回はBootstrap
+  を使います。→コードは公式のHPからそのままコピペ
+*/
+  .header {
+    padding-top: 40px;
+  }
+  .navbar {
+    background: white;
+    width: 100%;
+  }
+  .header .navbar-brand-size {
+    font-size: 32px;
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-left: 20px;
+  }
+  .header .navbar-brand-size:hover {
+    opacity: 1;
+    color: #000;
+  }
+  .navbar-nav-size {
+    font-size: 20px;
+    margin-left: 20px;
+  }
+  .header .nav-link {
+    text-decoration: none;
+    font-family: sans-serif;
+    margin-right: 20px;
+    opacity: 0.8;
+  }
+  .header .nav-link:hover {
+    transition: all, 0.3s;
+    color: #98fb98;
+    opacity: 0.7;
+  }
+
+/* ここまでヘッダー  */
+
+.heading01 {
+  font-size: 32px;
+  color: #000;
+  font-family: sans-serif;
+  opacity: 0.8;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.heading01 span {
+  border-bottom: 3px solid #84fb84;
+  padding-bottom: 10px;
+}
+
+
+/*
+  ここから　サブページ共通ナビゲーション
+*/
+.sub-nav .lead-title {
+  padding: 100px 20px;
+
+}
+.sub-nav .lead-title .heading01 {
+  text-align: left;
+}
+.sub-nav .navbar {
+  border-bottom: 1px solid #84fb84;
+}
+.sub-nav .nav-link {
+  text-decoration: none;
+
+}
+.sub-nav .nav-item {
+  margin-right: 20px;
+  opacity: 0.7;
+}
+
+
+/*  ここまで　サブナビ*/
+
+/*
+ここから　メイン　共通
+*/
+.main {
+  padding: 80px 0;
+}
+.main .card {
+  text-align: center;
+  background: #fff;
+  border-color: #fff;
+  color: #999;
+  display: block;
+}
+.main .card-link {
+  text-decoration: none;
+  display: block;
+  color: #999;
+}
+.main .card-link:hover {
+  opacity: 1;
+}
+.main .card-link img {
+  transition: all, 0.6s;
+  transform: scale(0.95);
+}
+.main .card-link img:hover {
+  transition: all, 0.6s;
+  transform: scale(1);
+}
+
+.main .card-body .card-title {
+  margin-top: 10px;
+  opacity: 0.6;
+  font-weight: bold;
+  line-height: 2;
+  color: #000;
+  font-size: 24px;
+}
+.main .card-body .card-tag {
+  text-decoration: none;
+  background: #ccffdd;
+  opacity: 0.7;
+  font-size: 12px;
+}
+.main .card-body .card-text {
+  margin-top: 10px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #7B7B7B;
+  font-family: sans-serif;
+}
+
+
+/*  --> ここまで　メイン　*/
+
+/* ここからフッター */
+
+footer {
+  padding-bottom: 30px;
+
+}
+.lead {
+  font-size: 18px;
+  font-family: serif;
+}
+.footer .row .copy{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 30px;
+}
