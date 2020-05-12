@@ -1,0 +1,242 @@
+@charset "utf-8";
+html {
+  font-size: 16px;
+
+}
+body {
+  margin: 0;
+  background: #fff;
+  color: #333333;
+  word-wrap: break-word;
+  font-family: sans-serif, Arial, "ヒラギノ角ゴ　ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "MS Pゴシック", "MS PGothic";
+  font-weight: 300;
+
+}
+
+/*
+--> ここから、３x２の共通グリッド
+＃features #latest
+*/
+.contents {
+  text-align: center;
+}
+.contents .category {
+  padding: 80px 0 60px;
+}
+.latest {
+  background-color: rgb(242, 242, 242, 0.4);
+}
+.contents .contents-wrap {
+
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contents .contents-wrap-list {
+  min-width: 320px;
+  width: 50%;
+  list-style: none;
+}
+
+/*  -->ここから　一つの記事のクリッカブル範囲をわかりやすくするために  */
+.contents .contents-wrap-list .contents-wrap-link {
+  display: block;
+  margin: 0px 0px 80px 0px;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: all, 0.3s;
+}
+.contents .contents-wrap-list .contents-wrap-link:hover {
+  opacity: 1;
+}
+/* --> ここまで*/
+
+.contents .contents-wrap-list .date {
+  display: inline-block;
+  font-size: 12px;
+  border-bottom: 1px dashed #000;
+  text-align: center;
+  opacity: 0.7;
+}
+.contents .contents-wrap-list .tag {
+  display: inline-block;
+  background-color: #ccffdd;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.contents .contents-wrap-list img {
+  width: 75%;
+  height: 300px;
+}
+.contents .contents-wrap-list .contents-wrap-lower {
+  width: 100%;
+  height: auto;
+  padding: 0 30px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  color: #000;
+  overflow: hidden;
+  text-align: center;
+}
+.contents .contents-wrap-lower .tag {
+
+}
+
+/* -> ここから　タイトルの調整*/
+.contents .contents-wrap-list .contents-wrap-title {
+  line-height: 2.0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #000;
+  font-family: sans-serif;
+
+}
+
+.contents .contents-wrap-list .contents-big-title {
+  line-height: 1.8;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  font-size: 30px;
+
+}
+/* -> ここまで*/
+
+/* --> ここから　テキストのサイズ調整*/
+
+.contents  .contents-wrap-lower .contents-wrap-txt {
+  opacity: 0.7;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: sans-serif;
+}
+.contents  .contents-wrap-lower .contents-wrap-txt.contents-big-txt {
+  font-size: 18px;
+  margin-top: 30px;
+
+}
+/* -->　ここまで*/
+
+/*
+--> !!! ここまで、２x２の共通グリッド
+＃features #latest
+*/
+
+/* --> ここから　ガイド*/
+.guides {
+  padding: 60px 0;
+}
+.guides .row {
+  margin: 0 30px;
+
+}
+.guides .row .guide-group {
+  margin-bottom: 30px;
+}
+.row .guide-group .heading02 {
+  font-size: 30px;
+  font-family: sans-serif;
+  padding: 10px 0;
+  line-height: 1.5;
+  text-align: center;
+}
+.guides .row .guide-list {
+  padding: 10px;
+  display: block;
+}
+.row .guide-group .guide-list-item {
+  margin-bottom: 20px;
+
+}
+.row .guide-group ol {
+  color: #00cc00;
+
+}
+.row .guide-group .guide-list-link {
+  text-decoration: none;
+  opacity: 0.7;
+  color: #000;
+  line-height: 1.8;
+  display: block;
+}
+.row .guide-group .guide-list-link:hover {
+  opacity: 1;
+  transition: all, 0.3s;
+  text-decoration: underline;
+}
+/*--> ここまで　ガイド*/
+
+
+/* ここから　３カラム　'myself  */
+.footer .about {
+  background: rgb(242, 242, 242, 0.4);
+  padding: 0 40px;
+}
+.footer .foot-heading {
+  padding-top: 10px;
+  font-size: 26px;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: center;
+  display: block;
+}
+.footer .foot-heading span {
+  border-bottom: 5px solid #98fb98;
+  padding-bottom: 20px;
+}
+.footer .port-group {
+  padding: 40px 0px;
+}
+.footer .port-list {
+  list-style: none;
+  margin-bottom: 20px;
+  border-bottom: 1px dashed #000;
+  padding-bottom: 10px;
+}
+.footer .port-link {
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  font-family: serif;
+}
+.footer .port-link:hover {
+  opacity: 1;
+}
+.footer .foot-txt {
+  padding: 40px 10px 0;
+  font-family: serif;
+  line-height: 2;
+}
+.footer .btn-foot-center {
+  text-align: center;
+  margin: 0 auto 20px;
+}
+.footer .btn-foot-center span {
+  color: #00cc00;
+}
+.footer .btn-foot-center .btn-light {
+  background: #fff;
+  border-color: #000;
+  opacity: 0.7;
+}
+.footer .btn-foot-center .btn-light:hover {
+  opacity: 1;
+  transition: all. 0.3s;
+}
+
+
+/* --> ここまで３カラム*/
+
+<!-- ここからメディクエリ  -->
+@media screen and (max-width: 1024px) {
+  .contents .wrap {
+
+
+
+  }
+  .contents .top-grid {
+    display: inline-block;
+  }
+
+}
